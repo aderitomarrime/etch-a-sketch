@@ -8,5 +8,13 @@ function createGrid(num) {
         container.appendChild(div); 
     }
 }
-
 createGrid(numOfDivs)
+
+const divhover = document.querySelectorAll(".square");
+divhover.forEach(hoverEffect);
+
+function hoverEffect(item) {
+    item.addEventListener("mouseenter", () => {
+        item.classList.add("hover-item")
+    })
+}
