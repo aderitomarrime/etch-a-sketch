@@ -14,9 +14,22 @@ createGrid(numOfDivs)
 const divhover = document.querySelectorAll(".square");
 divhover.forEach(hoverEffect);
 
+function getRandomNumber() {
+    return Math.floor( Math.random() * 255)
+}
+
 function hoverEffect(item) {
     item.addEventListener("mouseenter", () => {
-        item.classList.add("hover-item")
+        // item.classList.add("hover-item")
+
+        let firstNumber = getRandomNumber();
+        let secondNumber = getRandomNumber();
+        let thirdNumber = getRandomNumber();
+
+        function randomBackGroundColor(first, second, third) {
+            item.style.backgroundColor = `rgb(${first}, ${second}, ${third})`
+        }
+        randomBackGroundColor(firstNumber, secondNumber, thirdNumber);
     })
 }
 
