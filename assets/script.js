@@ -52,7 +52,7 @@ function changeSquareSize (numOfSquares) {
 }
 
 changeGridSizebtn.addEventListener("click", ()=> {
-    let newGridSize = window.prompt("Please enter the number of squares per side for the new grid");
+    let newGridSize = parseInt(window.prompt("Please enter the number of squares per side for the new grid", 16));
     if (newGridSize < 1 || newGridSize > 100) {
         alert("Please enter a number between 1 and 100")
     } else {
