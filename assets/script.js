@@ -28,6 +28,9 @@ function hoverEffect(item) {
 
         function randomBackGroundColor(first, second, third) {
             item.style.backgroundColor = `rgb(${first}, ${second}, ${third})`
+            let opacity = Number(item.style.opacity)
+            opacity += 0.1;
+            item.style.opacity = `${opacity}`;
         }
         randomBackGroundColor(firstNumber, secondNumber, thirdNumber);
     })
