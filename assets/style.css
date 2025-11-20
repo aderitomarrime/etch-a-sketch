@@ -20,22 +20,23 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 2em;
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 32px;
 }
 
 button {
     background-color: #748E54;
     color: white;
     font-weight: bold;
-    padding: 8px 10px;
+    padding: 6px 8px;
     border: none;
-    font-size: 20px;
+    font-size: 1.2rem;
     border-radius: 4px;
-    margin-top: 12px;
-    margin-bottom: 22px;
+    margin-top: 10px;
+    margin-bottom: 20px;
     cursor: pointer;
     transition: .3s ease-in-out;
 }
@@ -45,15 +46,15 @@ button:hover {
 }
 
 .square {
-    height: 30px;
-    width: 30px;
+    height: 25px;
+    width: 25px;
     border: 1px solid rgba(0, 0, 0, 0.103);
 }
 
 .container {
     display: flex;
     flex-flow: row wrap;
-    width: 480px;
+    width: 400px;
 }
 
 /* .hover-item {

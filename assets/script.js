@@ -45,7 +45,7 @@ function allSquares () {
 
 function changeSquareSize (numOfSquares) {
 
-    let squareSize = 480 / numOfSquares;
+    let squareSize = 400 / numOfSquares;
     let squares = allSquares()
 
     squares.forEach((square) => {
