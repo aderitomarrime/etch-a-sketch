@@ -18,7 +18,7 @@ A website version of an Etch-a-Sketch that changes the background colour of each
 
 ## Live Demo
 
-Visit the website: [Live Demo](https://aderitomaraderitomarrime/etch-a-sketch/)
+Visit the website: [Live Demo](https://aderitomarrime.github.io/etch-a-sketch/)
 
 
 ## Features
